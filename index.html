@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Document</title>
+
+</head>
+
+<body>
+
+  <form onsubmit="saveToLocalStorage(event)">
+
+      <h3>Booking Appointment</h3>
+
+      <label for="name">Name:</label><br>
+
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="mail">Email:</label><br>
+
+      <input type="email" id="mail" name="email" required><br><br>
+
+      <label for="telp">Phone Number:</label><br>
+
+      <input type="tel" id="telp" name="phonenumber" ><br><br>
+
+      <button>Submit</button>
+
+  </form>
+  <ul id = 'ListOfUser'></ul>
+  <script src="dom.js"></script>
+</body>
+</html>
